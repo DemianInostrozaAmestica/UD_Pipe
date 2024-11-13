@@ -1,0 +1,84 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = hungarian-szeged-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = A macska a szekrényben van.
+1	A	a	DET	_	Definite=Def|PronType=Art	2	det	_	TokenRange=0:1
+2	macska	macska	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	TokenRange=2:8
+3	a	a	DET	_	Definite=Def|PronType=Art	4	det	_	TokenRange=9:10
+4	szekrényben	szekrény	NOUN	_	Case=Ine|Number=Sing	5	obl	_	TokenRange=11:22
+5	van	van	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=23:26
+6	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n|TokenRange=26:27
+
+# sent_id = 2
+# text = Ő bemegy a boltba.
+1	Ő	ő	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	TokenRange=28:29
+2	bemegy	bemegy	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=30:36
+3	a	a	DET	_	Definite=Def|PronType=Art	4	det	_	TokenRange=37:38
+4	boltba	bolt	NOUN	_	Case=Nom|Number=Sing	2	nsubj	_	SpaceAfter=No|TokenRange=39:45
+5	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n|TokenRange=45:46
+
+# sent_id = 3
+# text = Ő kijött a barlangból.
+1	Ő	ő	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	TokenRange=47:48
+2	kijött	kijön	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=49:55
+3	a	a	DET	_	Definite=Def|PronType=Art	4	det	_	TokenRange=56:57
+4	barlangból	barlang	NOUN	_	Case=Ela|Number=Sing	2	obl	_	SpaceAfter=No|TokenRange=58:68
+5	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\n|TokenRange=68:69
+
+# sent_id = 4
+# text = A könyv az asztalon van.
+1	A	a	DET	_	Definite=Def|PronType=Art	2	det	_	TokenRange=70:71
+2	könyv	könyv	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	TokenRange=72:77
+3	az	az	DET	_	Definite=Def|PronType=Art	4	det	_	TokenRange=78:80
+4	asztalon	asztal	NOUN	_	Case=Sup|Number=Sing	5	obl	_	TokenRange=81:89
+5	van	van	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=90:93
+6	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n|TokenRange=93:94
+
+# sent_id = 5
+# text = A fiú felugrott az asztalra.
+1	A	a	DET	_	Definite=Def|PronType=Art	2	det	_	TokenRange=95:96
+2	fiú	fiú	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	TokenRange=97:100
+3	felugrott	fel+ugrik	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=101:110
+4	az	az	DET	_	Definite=Def|PronType=Art	5	det	_	TokenRange=111:113
+5	asztalra	asztal	NOUN	_	Case=Sbl|Number=Sing	3	obl	_	SpaceAfter=No|TokenRange=114:122
+6	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n|TokenRange=122:123
+
+# sent_id = 6
+# text = A lány lemászott az asztalról.
+1	A	a	DET	_	Definite=Def|PronType=Art	2	det	_	TokenRange=124:125
+2	lány	lány	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	TokenRange=126:130
+3	lemászott	lemászik	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=131:140
+4	az	az	DET	_	Definite=Def|PronType=Art	5	det	_	TokenRange=141:143
+5	asztalról	asztal	NOUN	_	Case=Del|Number=Sing	3	obl	_	SpaceAfter=No|TokenRange=144:153
+6	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\n|TokenRange=153:154
+
+# sent_id = 7
+# text = A madár a fánál pihen.
+1	A	a	DET	_	Definite=Def|PronType=Art	2	det	_	TokenRange=155:156
+2	madár	madár	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	TokenRange=157:162
+3	a	a	DET	_	Definite=Def|PronType=Art	4	det	_	TokenRange=163:164
+4	fánál	fánál	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	TokenRange=165:170
+5	pihen	pihen	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=171:176
+6	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n|TokenRange=176:177
+
+# sent_id = 8
+# text = A fiú a fához fut.
+1	A	a	DET	_	Definite=Def|PronType=Art	2	det	_	TokenRange=178:179
+2	fiú	fiú	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	TokenRange=180:183
+3	a	a	DET	_	Definite=Def|PronType=Art	4	det	_	TokenRange=184:185
+4	fához	fz	NOUN	_	Case=All|Number=Sing	5	obl	_	TokenRange=186:191
+5	fut	fu	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=192:195
+6	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\n|TokenRange=195:196
+
+# sent_id = 9
+# text = A mókus eltávolodott a fától.
+1	A	a	DET	_	Definite=Def|PronType=Art	2	det	_	TokenRange=197:198
+2	mókus	mókus	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	TokenRange=199:204
+3	eltávolodott	el+távolodik	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=205:217
+4	a	a	DET	_	Definite=Def|PronType=Art	5	det	_	TokenRange=218:219
+5	fától	fa	NOUN	_	Case=Abl|Number=Sing	3	obl	_	SpaceAfter=No|TokenRange=220:225
+6	.	.	PUNCT	_	_	3	punct	_	SpaceAfter=No|TokenRange=225:226
+

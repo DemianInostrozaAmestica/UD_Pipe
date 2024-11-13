@@ -1,0 +1,96 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = english-ewt-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = The cat is in the wardrobe.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	TokenRange=0:3
+2	cat	cat	NOUN	NN	Number=Sing	6	nsubj	_	TokenRange=4:7
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	TokenRange=8:10
+4	in	in	ADP	IN	_	6	case	_	TokenRange=11:13
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	TokenRange=14:17
+6	wardrobe	wardrobe	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No|TokenRange=18:26
+7	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n|TokenRange=26:27
+
+# sent_id = 2
+# text = She enters the shop.
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	TokenRange=28:31
+2	enters	enter	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	TokenRange=32:38
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	TokenRange=39:42
+4	shop	shop	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No|TokenRange=43:47
+5	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n|TokenRange=47:48
+
+# sent_id = 3
+# text = He came out of the cave.
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	TokenRange=49:51
+2	came	come	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	TokenRange=52:56
+3	out	out	ADP	IN	_	6	case	_	TokenRange=57:60
+4	of	of	ADP	IN	_	6	case	_	TokenRange=61:63
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	TokenRange=64:67
+6	cave	cave	NOUN	NN	Number=Sing	2	obl	_	SpaceAfter=No|TokenRange=68:72
+7	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\n|TokenRange=72:73
+
+# sent_id = 4
+# text = The book is on the table.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	TokenRange=74:77
+2	book	book	NOUN	NN	Number=Sing	6	nsubj	_	TokenRange=78:82
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	TokenRange=83:85
+4	on	on	ADP	IN	_	6	case	_	TokenRange=86:88
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	TokenRange=89:92
+6	table	table	NOUN	NN	Number=Sing	0	root	_	SpaceAfter=No|TokenRange=93:98
+7	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\n|TokenRange=98:99
+
+# sent_id = 5
+# text = The boy jumped onto the table.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	TokenRange=100:103
+2	boy	boy	NOUN	NN	Number=Sing	3	nsubj	_	TokenRange=104:107
+3	jumped	jump	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	TokenRange=108:114
+4	onto	onto	ADP	IN	_	6	case	_	TokenRange=115:119
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	TokenRange=120:123
+6	table	table	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No|TokenRange=124:129
+7	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n|TokenRange=129:130
+
+# sent_id = 6
+# text = The girl climbed down from the table.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	TokenRange=131:134
+2	girl	girl	NOUN	NN	Number=Sing	3	nsubj	_	TokenRange=135:139
+3	climbed	climb	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	TokenRange=140:147
+4	down	down	ADV	RB	_	3	advmod	_	TokenRange=148:152
+5	from	from	ADP	IN	_	7	case	_	TokenRange=153:157
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	TokenRange=158:161
+7	table	table	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No|TokenRange=162:167
+8	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n|TokenRange=167:168
+
+# sent_id = 7
+# text = The bird rests next to the tree.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	TokenRange=169:172
+2	bird	bird	NOUN	NN	Number=Sing	3	nsubj	_	TokenRange=173:177
+3	rests	rest	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	TokenRange=178:183
+4	next	next	ADV	RB	_	3	advmod	_	TokenRange=184:188
+5	to	to	ADP	IN	_	7	case	_	TokenRange=189:191
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	TokenRange=192:195
+7	tree	tree	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No|TokenRange=196:200
+8	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n|TokenRange=200:201
+
+# sent_id = 8
+# text = The boy runs toward the tree.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	TokenRange=202:205
+2	boy	boy	NOUN	NN	Number=Sing	3	nsubj	_	TokenRange=206:209
+3	runs	run	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	TokenRange=210:214
+4	toward	toward	ADP	IN	_	6	case	_	TokenRange=215:221
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	TokenRange=222:225
+6	tree	tree	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No|TokenRange=226:230
+7	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\n|TokenRange=230:231
+
+# sent_id = 9
+# text = The squirrel moved away from the tree.
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	TokenRange=232:235
+2	squirrel	squirrel	NOUN	NN	Number=Sing	3	nsubj	_	TokenRange=236:244
+3	moved	move	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	TokenRange=245:250
+4	away	away	ADV	RB	_	3	advmod	_	TokenRange=251:255
+5	from	from	ADP	IN	_	7	case	_	TokenRange=256:260
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	TokenRange=261:264
+7	tree	tree	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No|TokenRange=265:269
+8	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No|TokenRange=269:270
+

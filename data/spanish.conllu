@@ -1,0 +1,97 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = spanish-ancora-ud-2.12-230717
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = El gato está en el armario.
+1	El	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	TokenRange=0:2
+2	gato	gato	NOUN	ncms000	Gender=Masc|Number=Sing	3	nsubj	_	TokenRange=3:7
+3	está	estar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	TokenRange=8:12
+4	en	en	ADP	sps00	_	6	case	_	TokenRange=13:15
+5	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	TokenRange=16:18
+6	armario	armario	NOUN	ncms000	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|TokenRange=19:26
+7	.	.	PUNCT	fp	PunctType=Peri	3	punct	_	SpacesAfter=\n|TokenRange=26:27
+
+# sent_id = 2
+# text = Ella entra en la tienda.
+1	Ella	él	PRON	pp3fs000	Case=Acc,Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	TokenRange=28:32
+2	entra	entrar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	TokenRange=33:38
+3	en	en	ADP	sps00	_	5	case	_	TokenRange=39:41
+4	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	TokenRange=42:44
+5	tienda	tienda	NOUN	ncfs000	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No|TokenRange=45:51
+6	.	.	PUNCT	fp	PunctType=Peri	2	punct	_	SpacesAfter=\n|TokenRange=51:52
+
+# sent_id = 3
+# text = Él salió de la cueva.
+1	Él	él	PRON	pp3ms000	Case=Acc,Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	TokenRange=53:55
+2	salió	salir	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	TokenRange=56:61
+3	de	de	ADP	sps00	_	5	case	_	TokenRange=62:64
+4	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	TokenRange=65:67
+5	cueva	cueva	NOUN	ncfs000	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No|TokenRange=68:73
+6	.	.	PUNCT	fp	PunctType=Peri	2	punct	_	SpacesAfter=\n|TokenRange=73:74
+
+# sent_id = 4
+# text = El libro está sobre la mesa.
+1	El	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	TokenRange=75:77
+2	libro	libro	NOUN	ncms000	Gender=Masc|Number=Sing	3	nsubj	_	TokenRange=78:83
+3	está	estar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	TokenRange=84:88
+4	sobre	sobre	ADP	sps00	_	6	case	_	TokenRange=89:94
+5	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	TokenRange=95:97
+6	mesa	mesa	NOUN	ncfs000	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No|TokenRange=98:102
+7	.	.	PUNCT	fp	PunctType=Peri	3	punct	_	SpacesAfter=\n|TokenRange=102:103
+
+# sent_id = 5
+# text = El niño saltó sobre la mesa.
+1	El	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	TokenRange=104:106
+2	niño	niño	NOUN	ncms000	Gender=Masc|Number=Sing	3	nsubj	_	TokenRange=107:111
+3	saltó	saltar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	TokenRange=112:117
+4	sobre	sobre	ADP	sps00	_	6	case	_	TokenRange=118:123
+5	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	TokenRange=124:126
+6	mesa	mesa	NOUN	ncfs000	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No|TokenRange=127:131
+7	.	.	PUNCT	fp	PunctType=Peri	3	punct	_	SpacesAfter=\n|TokenRange=131:132
+
+# sent_id = 6
+# text = La niña bajó de la mesa.
+1	La	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	TokenRange=133:135
+2	niña	niña	NOUN	ncfs000	Gender=Fem|Number=Sing	3	nsubj	_	TokenRange=136:140
+3	bajó	bajar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	TokenRange=141:145
+4	de	de	ADP	sps00	_	6	case	_	TokenRange=146:148
+5	la	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	TokenRange=149:151
+6	mesa	mesa	NOUN	ncfs000	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No|TokenRange=152:156
+7	.	.	PUNCT	fp	PunctType=Peri	3	punct	_	SpacesAfter=\n|TokenRange=156:157
+
+# sent_id = 7
+# text = El pájaro descansa junto al árbol.
+1	El	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	TokenRange=158:160
+2	pájaro	pájaro	NOUN	ncms000	Gender=Masc|Number=Sing	3	nsubj	_	TokenRange=161:167
+3	descansa	descansar	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	TokenRange=168:176
+4	junto	junto	ADJ	spcms	Gender=Masc|Number=Sing	7	case	_	TokenRange=177:182
+5-6	al	_	_	_	_	_	_	_	TokenRange=183:185
+5	a	a	ADP	_	_	4	fixed	_	_
+6	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	árbol	árbol	NOUN	ncms000	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|TokenRange=186:191
+8	.	.	PUNCT	fp	PunctType=Peri	3	punct	_	SpacesAfter=\n|TokenRange=191:192
+
+# sent_id = 8
+# text = El niño corre hacia el árbol.
+1	El	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	TokenRange=193:195
+2	niño	niño	NOUN	ncms000	Gender=Masc|Number=Sing	3	nsubj	_	TokenRange=196:200
+3	corre	correr	VERB	vmip3s0	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	TokenRange=201:206
+4	hacia	hacia	ADP	sps00	_	6	case	_	TokenRange=207:212
+5	el	el	DET	da0ms0	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	TokenRange=213:215
+6	árbol	árbol	NOUN	ncms000	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No|TokenRange=216:221
+7	.	.	PUNCT	fp	PunctType=Peri	3	punct	_	SpacesAfter=\n|TokenRange=221:222
+
+# sent_id = 9
+# text = La ardilla se alejó del árbol.
+1	La	el	DET	da0fs0	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	TokenRange=223:225
+2	ardilla	ardilla	NOUN	ncfs000	Gender=Fem|Number=Sing	4	nsubj	_	TokenRange=226:233
+3	se	él	PRON	p0300000	Case=Acc|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	4	expl:pv	_	TokenRange=234:236
+4	alejó	alejar	VERB	vmis3s0	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	TokenRange=237:242
+5-6	del	_	_	_	_	_	_	_	TokenRange=243:246
+5	de	de	ADP	spcms	_	7	case	_	_
+6	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	árbol	árbol	NOUN	ncms000	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No|TokenRange=247:252
+8	.	.	PUNCT	fp	PunctType=Peri	4	punct	_	SpaceAfter=No|TokenRange=252:253
+
