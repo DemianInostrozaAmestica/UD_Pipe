@@ -1,0 +1,1 @@
+# pip freeze > requirements.txt. cada vez que quiera hacer un push, primero actualizar requierements.txt
