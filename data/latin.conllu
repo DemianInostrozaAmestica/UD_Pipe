@@ -4,71 +4,73 @@
 # newdoc
 # newpar
 # sent_id = 1
-# text = Fēlēs in armāriō est.
-1	Fēlēs	fēlēs	NOUN	C1|grn1|casA|gen1	Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Sing	4	nsubj	_	TokenRange=0:5
-2	in	in	ADP	S4	_	3	case	_	TokenRange=6:8
-3	armāriō	armārium	NOUN	B1|grn1|casF|gen3	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	4	obl	_	TokenRange=9:16
-4	est	sum	AUX	N3|modA|tem1|gen6	InflClass=LatAnom|Number=Sing|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=17:20
-5	.	.	PUNCT	Punc	_	4	punct	_	SpacesAfter=\n|TokenRange=20:21
+# text = Fēlēs est in armāriō.
+1	Fēlēs	fēlēs	NOUN	C1|grn1|casA|gen1	Case=Nom|Gender=Masc|InflClass=IndEurI|Number=Sing	2	nsubj	_	TokenRange=0:5
+2	est	sum	AUX	N3|modA|tem1|gen6	InflClass=LatAnom|Number=Sing|VerbForm=Fin	0	root	_	TokenRange=6:9
+3	in	in	ADP	S4	_	4	case	_	TokenRange=10:12
+4	armāriō	armārium	NOUN	B1|grn1|casF|gen3	Case=Abl|Gender=Neut|InflClass=IndEurO|Number=Sing	2	obl	_	SpaceAfter=No|TokenRange=13:20
+5	.	.	PUNCT	Punc	_	2	punct	_	SpacesAfter=\n|TokenRange=20:21
 
 # sent_id = 2
-# text = Illa in tabernam intrat. Ille ex spēluncā exit.
-1	Illa	illus	DET	F1|grn1|casA|gen2	Case=Nom|Gender=Fem|InflClass=LatPron|Number=Sing|PronType=Dem	4	nsubj	_	TokenRange=22:26
-2	in	in	ADP	S4	_	3	case	_	TokenRange=27:29
-3	tabernam	tabernus	NOUN	A1|grn1|casD|gen2	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	4	obl:arg	_	TokenRange=30:38
-4	intrat	intro	VERB	J3|modA|tem1|gen6	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=39:45
-5	.	.	PUNCT	Punc	_	9	punct	_	SpacesAfter=\n|TokenRange=45:46
-6	Ille	ille	DET	F1|grn1|casA|gen1	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	9	nsubj	_	TokenRange=47:51
-7	ex	ex	ADP	S4|vgr2	_	8	case	_	TokenRange=52:54
-8	spēluncā	spēluncā	NOUN	A1|grn1|casF|gen2	_	9	obl	_	TokenRange=55:63
-9	exit	exeo	VERB	N3|modA|tem1|gen6	Aspect=Imp|InflClass=LatAnom|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	SpaceAfter=No|TokenRange=64:68
-10	.	.	PUNCT	Punc	_	4	punct	_	SpacesAfter=\n|TokenRange=68:69
+# text = Ea intrat tabernam.
+1	Ea	ea	PRON	F1|grn1|casA|gen2	Case=Abl|Gender=Fem|InflClass=LatPron|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	TokenRange=22:24
+2	intrat	intro	VERB	J3|modA|tem1|gen6	Aspect=Imp|InflClass=LatA|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=25:31
+3	tabernam	tabernus	NOUN	A1|grn1|casD|gen2	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	2	obj	_	SpaceAfter=No|TokenRange=32:40
+4	.	.	PUNCT	Punc	_	2	punct	_	SpacesAfter=\n|TokenRange=40:41
 
 # sent_id = 3
-# text = Līber in mēnsā est.
-1	Līber	līber	NOUN	B1|grn1|casA|gen1	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	4	nsubj	_	TokenRange=70:75
-2	in	in	ADP	S4	_	3	case	_	TokenRange=76:78
-3	mēnsā	mēnsā	NOUN	C1|grn1|casF|gen2	Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing	4	obl	_	TokenRange=79:84
-4	est	sum	AUX	N3|modA|tem1|gen6	InflClass=LatAnom|Number=Sing|VerbForm=Fin	0	root	_	SpaceAfter=No|TokenRange=85:88
-5	.	.	PUNCT	Punc	_	4	punct	_	SpacesAfter=\n|TokenRange=88:89
+# text = Ille ēgreditur ē spēluncā.
+1	Ille	ille	DET	F1|grn1|casA|gen1	Case=Nom|Gender=Masc|InflClass=LatPron|Number=Sing|PronType=Dem	2	nsubj:pass	_	TokenRange=42:46
+2	ēgreditur	ēgredo	VERB	L3|modJ|tem1|gen6	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	TokenRange=47:56
+3	ē	ē	ADP	S4|vgr1	_	4	case	_	TokenRange=57:58
+4	spēluncā	spēluncā	NOUN	A1|grn1|casF|gen2	Case=Abl|Gender=Fem|InflClass=IndEurA|Number=Sing	2	obl	_	SpaceAfter=No|TokenRange=59:67
+5	.	.	PUNCT	Punc	_	2	punct	_	SpacesAfter=\n|TokenRange=67:68
 
 # sent_id = 4
-# text = Puer in mēnsam saltāvit.
-1	Puer	puer	NOUN	B1|grn1|casA|gen1	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	4	nsubj	_	TokenRange=90:94
-2	in	in	ADP	S4	_	3	case	_	TokenRange=95:97
-3	mēnsam	mēnsa	NOUN	A1|grn1|casD|gen2	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	4	obl:arg	_	TokenRange=98:104
-4	saltāvit	saltāvio	VERB	L3|modA|tem4|gen6	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=105:113
-5	.	.	PUNCT	Punc	_	4	punct	_	SpacesAfter=\n|TokenRange=113:114
+# text = Liber est in mēnsā.
+1	Liber	liber	NOUN	B1|grn1|casA|gen1	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	2	nsubj	_	TokenRange=69:74
+2	est	sum	AUX	N3|modA|tem1|gen6	InflClass=LatAnom|Number=Sing|VerbForm=Fin	0	root	_	TokenRange=75:78
+3	in	in	ADP	S4	_	4	case	_	TokenRange=79:81
+4	mēnsā	mēnsā	NOUN	C1|grn1|casF|gen2	Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing	2	obl	_	SpaceAfter=No|TokenRange=82:87
+5	.	.	PUNCT	Punc	_	2	punct	_	SpacesAfter=\n|TokenRange=87:88
 
 # sent_id = 5
-# text = Puella dē mēnsā dēscendit.
-1	Puella	puella	NOUN	A1|grn1|casA|gen2|vgr1	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	4	nsubj	_	TokenRange=115:121
-2	dē	dē	ADP	S4	_	3	case	_	TokenRange=122:124
-3	mēnsā	mēnsā	NOUN	C1|grn1|casF|gen2	Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing	4	obl:arg	_	TokenRange=125:130
-4	dēscendit	dēscendo	VERB	L3|modA|tem1|gen6	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=131:140
-5	.	.	PUNCT	Punc	_	4	punct	_	SpacesAfter=\n|TokenRange=140:141
+# text = Puer sālīvit in mēnsam.
+1	Puer	puer	NOUN	B1|grn1|casA|gen1	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	2	nsubj	_	TokenRange=89:93
+2	sālīvit	sālīvo	VERB	L3|modA|tem1|gen6	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=94:101
+3	in	in	ADP	S4	_	4	case	_	TokenRange=102:104
+4	mēnsam	mēnsa	NOUN	A1|grn1|casD|gen2	Case=Acc|Gender=Fem|InflClass=IndEurA|Number=Sing	2	obl:arg	_	SpaceAfter=No|TokenRange=105:111
+5	.	.	PUNCT	Punc	_	2	punct	_	SpacesAfter=\n|TokenRange=111:112
 
 # sent_id = 6
-# text = Avis apud arborem quiēscit.
-1	Avis	avis	NOUN	C1|grn1|casA|gen2	Case=Nom|Gender=Fem|InflClass=IndEurI|Number=Sing	4	nsubj	_	TokenRange=142:146
-2	apud	apud	ADP	S4|vgr1	_	3	case	_	TokenRange=147:151
-3	arborem	arbor	NOUN	C1|grn1|casD|gen1	Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing	4	obl	_	TokenRange=152:159
-4	quiēscit	quiēsco	VERB	L3|modA|tem1|gen6	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=160:168
-5	.	.	PUNCT	Punc	_	4	punct	_	SpacesAfter=\n|TokenRange=168:169
+# text = Puella dēscendit dē mēnsā.
+1	Puella	puella	NOUN	A1|grn1|casA|gen2|vgr1	Case=Nom|Gender=Fem|InflClass=IndEurA|Number=Sing	2	nsubj	_	TokenRange=113:119
+2	dēscendit	dēscendo	VERB	L3|modA|tem1|gen6	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=120:129
+3	dē	dē	ADP	S4	_	4	case	_	TokenRange=130:132
+4	mēnsā	mēnsā	NOUN	C1|grn1|casF|gen2	Case=Abl|Gender=Fem|InflClass=IndEurI|Number=Sing	2	obl:arg	_	SpaceAfter=No|TokenRange=133:138
+5	.	.	PUNCT	Punc	_	2	punct	_	SpacesAfter=\n|TokenRange=138:139
 
 # sent_id = 7
-# text = Puer ad arborem currit.
-1	Puer	puer	NOUN	B1|grn1|casA|gen1	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	4	nsubj	_	TokenRange=170:174
-2	ad	ad	ADP	S4	_	3	case	_	TokenRange=175:177
-3	arborem	arbor	NOUN	C1|grn1|casD|gen1	Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing	4	obl:arg	_	TokenRange=178:185
-4	currit	curro	VERB	L3|modA|tem1|gen6	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=186:192
-5	.	.	PUNCT	Punc	_	4	punct	_	SpacesAfter=\n|TokenRange=192:193
+# text = Avis requiēscit prope arborem.
+1	Avis	avis	PRON	B1|grn1|casL|gen1	Case=Dat|Gender=Masc|InflClass=IndEurO|Number=Plur	2	obl:arg	_	TokenRange=140:144
+2	requiēscit	requiēsco	VERB	L3|modA|tem1|gen6	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=145:155
+3	prope	prope	ADP	S4	_	4	case	_	TokenRange=156:161
+4	arborem	arbor	NOUN	C1|grn1|casD|gen1	Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing	2	obl	_	SpaceAfter=No|TokenRange=162:169
+5	.	.	PUNCT	Punc	_	2	punct	_	SpacesAfter=\n|TokenRange=169:170
 
 # sent_id = 8
-# text = Sciūrus ab arbore discessit.
-1	Sciūrus	sciūrus	NOUN	B1|grn1|casA|gen1	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	4	nsubj	_	TokenRange=194:201
-2	ab	ab	ADP	S4|vgr2	_	3	case	_	TokenRange=202:204
-3	arbore	arbor	NOUN	C1|grn1|casF|gen2	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	4	obl:arg	_	TokenRange=205:211
-4	discessit	discedo	VERB	L3|modA|tem4|gen6	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=212:221
+# text = Puer currit ad arborem.
+1	Puer	puer	NOUN	B1|grn1|casA|gen1	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	2	nsubj	_	TokenRange=171:175
+2	currit	curro	VERB	L3|modA|tem1|gen6	Aspect=Imp|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=176:182
+3	ad	ad	ADP	S4	_	4	case	_	TokenRange=183:185
+4	arborem	arbor	NOUN	C1|grn1|casD|gen1	Case=Acc|Gender=Masc|InflClass=IndEurX|Number=Sing	2	obl:arg	_	SpaceAfter=No|TokenRange=186:193
+5	.	.	PUNCT	Punc	_	2	punct	_	SpacesAfter=\n|TokenRange=193:194
+
+# sent_id = 9
+# text = Sciūrus ab arbore sēcessit.
+1	Sciūrus	sciūrus	NOUN	B1|grn1|casA|gen1	Case=Nom|Gender=Masc|InflClass=IndEurO|Number=Sing	4	nsubj	_	TokenRange=195:202
+2	ab	ab	ADP	S4|vgr2	_	3	case	_	TokenRange=203:205
+3	arbore	arbor	NOUN	C1|grn1|casF|gen2	Case=Abl|Gender=Fem|InflClass=IndEurX|Number=Sing	4	obl:arg	_	TokenRange=206:212
+4	sēcessit	sēcedo	VERB	L3|modA|tem4|gen6	Aspect=Perf|InflClass=LatX|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=213:221
 5	.	.	PUNCT	Punc	_	4	punct	_	SpaceAfter=No|TokenRange=221:222
 
